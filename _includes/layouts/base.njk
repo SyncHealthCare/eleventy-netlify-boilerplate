@@ -10,13 +10,13 @@
 				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
 			</em>
 			{% include "components/nav.njk" %}
-
 		</header>
 
+		<main>
+			{{ layoutContent | safe }}
+		</main>
 
-{% include "layouts/contact.njk" %}
-
-<p>body</p>
+		{% include "components/footer.njk" %}
 
 	</body>
 
