@@ -8,10 +8,7 @@ tags:
 ---
 home
 home
-home
-home
-home
-home
+
 home
 home
 home
