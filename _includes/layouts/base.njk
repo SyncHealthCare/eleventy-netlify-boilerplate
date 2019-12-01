@@ -13,7 +13,13 @@
 		</header>
 
 		<main>
-			{{ layoutContent | safe }}
+			{% include "components/contact.njk" %}
+
+{% include "components/about.njk" %}
+
+
+			
+			
 		</main>
 
 		{% include "components/footer.njk" %}
